@@ -5,7 +5,9 @@
 # 🚀 Trabalho de Conclusão de Curso  
 **Autor:**  João Pedro Ramires Esteves  
 **Título:** Aplicação de Inteligência Artificial Explicável no contexto de Detecção de intrusão em Dispositivos IoT  
+**Resumo:** 
 
+> A crescente adoção de dispositivos inteligentes em ambientes como redes domésticas levanta a necessidade de considerações de segurança em seu entorno, assim tornando importantes sistemas que possam ajudar a assegurar a segurança cibernética dos mesmos. Circunscrito a esse desafio, este trabalho investiga a aplicação de técnicas de Inteligência Artificial Explicável (XAI) para promover maior transparência de sistemas de detecção de intrusão (IDSs) em dispositivos Internet das Coisas (IoT). Utilizando do conjunto de dados CICIoT2023, foram feitas análises exploratórias e pré‑processamento dos dados, seguida da seleção e treinamento de oito modelos de aprendizado de máquina, dentre os quais *XGBoost* se destacou em termos de performance. Para diferenciação entre tráfego normal e de ataque, alcançou 86% de acurácia, e para separar não somente anomalias, mas também seu tipo, obteve 77%, com ressalvas em categorias minoritárias. Empregou‑se a técnica SHAP de explicações para análise de contribuições globais e locais das variáveis nas decisões desses modelos, que revelaram dependências ambíguas e potenciais vieses - o protocolo `https` apresentou influência contraditória, ora elevando a probabilidade de tráfego benigno, ora contribuindo para falsos positivos de ataque; a métrica `min` oscilou entre reforçar decisões de ataque e benigno dependendo do caso. Caminhos futuros apontados direcionam-se no sentido de engenharia de atributos e seleção de variáveis.
 ---
 
 ## 📚 Sobre o Projeto  
